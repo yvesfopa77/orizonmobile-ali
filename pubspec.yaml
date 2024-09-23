@@ -1,0 +1,52 @@
+name: orizon
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.3
+  flutter_form_builder: ^9.4.1
+  form_builder_validators: ^11.0.0
+  intl: ^0.19.0
+  pinput: ^5.0.0
+  camera: ^0.11.0+2
+  flutter_svg: ^2.0.10+1
+  country_pickers: ^3.0.1
+  phone_numbers_parser: ^9.0.0
+  group_button: ^5.3.4
+  animated_toggle_switch: ^0.8.3
+  countries_world_map: ^1.3.0
+  syncfusion_flutter_signaturepad: ^26.2.14
+  path_provider: ^2.1.4
+  dotted_border: ^2.1.0
+  country_picker: ^2.0.26
+  vector_math: ^2.1.4
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: NM
+      fonts:
+        - asset: assets/fonts/NMLight.otf
+          weight: 300
+        - asset: assets/fonts/NMRegular.otf
+          weight: 400
+        - asset: assets/fonts/NMMedium.otf
+          weight: 500
+        - asset: assets/fonts/NMBold.otf
+          weight: 700
