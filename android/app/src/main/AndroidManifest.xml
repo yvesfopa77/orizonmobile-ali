@@ -1,6 +1,8 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orizon.internal">
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
-        android:label="orizon"
+        android:label="Orizon Internal"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
          android:roundIcon="@mipmap/ic_launcher_round">

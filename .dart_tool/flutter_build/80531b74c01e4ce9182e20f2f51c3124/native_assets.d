@@ -1,1 +1,0 @@
- C:\\03-DevsRepo\\orizon-mobile\\.dart_tool\\flutter_build\\80531b74c01e4ce9182e20f2f51c3124\\native_assets.yaml: 
