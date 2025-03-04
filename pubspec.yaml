@@ -1,0 +1,69 @@
+name: orizon
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.3
+  flutter_form_builder: ^9.4.1
+  form_builder_validators: ^11.0.0
+  intl: ^0.19.0
+  pinput: ^5.0.1
+  camera: ^0.11.0+2
+  flutter_svg: ^2.0.10+1
+  country_pickers: ^3.0.1
+  phone_number: ^2.1.0
+  group_button: ^5.3.4
+  animated_toggle_switch: ^0.8.3
+  syncfusion_flutter_signaturepad: ^26.2.14
+  dotted_border: ^2.1.0
+  country_picker: ^2.0.26
+  country_flags: ^3.0.0
+  image_picker: ^1.1.2
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  dio: ^5.7.0
+  local_auth: ^2.3.0
+  bot_toast: ^4.1.3
+  flutter_secure_storage: ^9.2.4
+  encrypt: ^5.0.3
+  get_storage: ^2.1.1
+  firebase_core: ^3.10.1
+  firebase_app_check: ^0.3.2+1
+  pretty_dio_logger: ^1.4.0
+  firebase_messaging: ^15.2.1
+  phone_form_field: ^10.0.3
+  phone_numbers_parser: ^9.0.2
+  http_parser: ^4.0.2
+  flutter_typeahead: ^5.2.0
+  otp_timer_button: ^1.1.1
+  intl_phone_field: ^3.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  change_app_package_name: ^1.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: NM
+      fonts:
+        - asset: assets/fonts/NMLight.otf
+          weight: 300
+        - asset: assets/fonts/NMRegular.otf
+          weight: 400
+        - asset: assets/fonts/NMMedium.otf
+          weight: 500
+        - asset: assets/fonts/NMBold.otf
+          weight: 700
