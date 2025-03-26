@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671207924673",
+    "project_id": "orizon-mobile-dev",
+    "storage_bucket": "orizon-mobile-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671207924673:android:629a326cdbc02e114a0540",
+        "android_client_info": {
+          "package_name": "com.orizon.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV1NwyBpAF2hRqmzu6gNgzlodwJratYAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
